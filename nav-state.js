@@ -42,7 +42,7 @@
 /**
  * @class NavState
  */
-class NavState {
+export default class NavState {
 
 	/**
 	 * @constructor
@@ -52,7 +52,7 @@ class NavState {
 	constructor(el) {
 		this.el = el;
 
-		this.bind().check();
+		this.check();
 	}
 
 	/**

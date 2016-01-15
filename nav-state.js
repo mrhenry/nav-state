@@ -42,7 +42,7 @@
 /**
  * @class NavState
  */
-export default class NavState {
+export class NavState {
 
 	/**
 	 * @constructor

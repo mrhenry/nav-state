@@ -1,4 +1,5 @@
 var bump = require('gulp-bump');
+var filter = require('gulp-filter');
 var git = require('gulp-git');
 var gulp = require('gulp');
 var tagVersion = require('gulp-tag-version');

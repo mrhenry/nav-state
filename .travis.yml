@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.12'
+script: |
+  npm test
+deploy:
+  provider: npm
+  email: yvesvanbroekhoven@gmail.com
+  api_key:
+    secure: hw2gEnA01vbM4G3P7aqVUHux/IsRso1bt8pWeNG5uOw7GZ8YD3DwoI0rFd4F0KDofb9JZIu+Wn/UK42ekU9phny6/KUy2mzHHaqKXkIfxlpiBfDdFrQE25qLZWbwzSc4oXW1EIi9KxNpy+/impvBjzCjcuUCYDlnkih5o65WqNAFAb3nYHvLllHGRG0eCxvaKZ/zHHbSrqi1ItnyigO/ANg66u9OzHu+elx+Lysxw3rDU6pNHxUIO5Rqx/7dABszQx7FVqpiGIfiXXl4P3/CHfFABXoMHbS0L0w/sl7yqvTLI2DQm74/NcnZ1OOJL5GmlsTbHBtaW9xQJ50YU1ZqnaLjGWkQj4s8tgoCilovvaHaZvVc1HpFBLEbc8NE4VkErDiT93Nch/oHM88fryAimDHZzJ2issNFa9eJLc3QVgkAqQD1WHsWBqGsyg9oG1FtoaoVn9oUIN9xg7Vz2JcHemW8rVwusd3VP7Jklc1P3YunIzOFi+CmaLMWbPVNz9I9Jg8wdskAhwCtiKLlE6U/1kLVzsqniH9j05uaiEAAK44z0OItuMgA1H6Hgl8Nde4UjZO+iUPgdOAC9ifW+vFwsS8pIQMbZjwdI1l2q7BElLXnOwFg5WDBL0TTcpkmKG6Qosfn7gg76bIuS27B00YXy34AQCDo0yfZm2eGTLq/edI=
+  on:
+    tags: true
+    repo: mrhenry/nav-state

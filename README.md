@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mrhenry/nav-state.svg?branch=master)](https://travis-ci.org/mrhenry/nav-state)
+
 # nav-state
 
 Highlight an element based on a state.

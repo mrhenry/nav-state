@@ -1,6 +1,6 @@
 {
 	"name": "nav-state",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Highlight an element based on current state.",
 	"main": "nav-state.js",
 	"scripts": {

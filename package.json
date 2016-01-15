@@ -1,34 +1,34 @@
 {
-	"name": "nav-state",
-	"version": "1.0.2",
-	"description": "Highlight an element based on current state.",
-	"main": "nav-state.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/mrhenry/nav-state.git"
-	},
-	"keywords": [
-		"state",
-		"highlight",
-		"active"
-	],
-	"author": "Simon Menke, Pieter Buelque, Yves Van Broekhoven",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/mrhenry/nav-state/issues"
-	},
-	"homepage": "https://github.com/mrhenry/nav-state#readme",
-	"devDependencies": {
-		"gulp": "^3.9.0",
-		"gulp-bump": "^1.0.0",
-		"gulp-filter": "^3.0.1",
-		"gulp-git": "^1.6.0",
-		"gulp-tag-version": "^1.3.0"
-	},
-	"jspm": {
-		"format": "es6"
-	}
+  "name": "nav-state",
+  "version": "1.0.3",
+  "description": "Highlight an element based on current state.",
+  "main": "nav-state.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhenry/nav-state.git"
+  },
+  "keywords": [
+    "state",
+    "highlight",
+    "active"
+  ],
+  "author": "Simon Menke, Pieter Buelque, Yves Van Broekhoven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrhenry/nav-state/issues"
+  },
+  "homepage": "https://github.com/mrhenry/nav-state#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-git": "^1.6.0",
+    "gulp-tag-version": "^1.3.0"
+  },
+  "jspm": {
+    "format": "es6"
+  }
 }
